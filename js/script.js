@@ -121,6 +121,5 @@ function address()
 }
 address();
 
-const car={ cartype:"pin", model:"honda",enginetype:"hgjffhj"}
-const (car,)
+
 

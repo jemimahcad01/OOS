@@ -101,3 +101,154 @@ b=7;
 console.log(a);
 
 
+console.log(v1);
+var output=v1=="s"?"v1 has value":"v1 doesnot have value";
+console.log(output); 
+
+m=80;
+//input
+// 35 grade c 60 grade b 80 grade a 90 grade distintion
+var mark =(35<=m && m<=60)?"grade c":(60<=m && m<=80)?"grade b":(80<=m && m<=90)?"grade a":(90<=m && m<=100)?"grade distintion":"fail";
+console.log(mark);
+//output
+
+
+//function declaration
+findgrade()
+function findgrade(m,k){
+//input
+// 35 grade c 60 grade b 80 grade a 90 grade distintion
+var mark =(35<=m && m<=60)?"grade c":(60<=m && m<=80)?"grade b":(80<=m && m<=90)?"grade a":(90<=m && m<=100)?"grade distintion":"fail";
+console.log(mark);
+//output
+}
+findgrade(65,"1cm");
+
+var findgrade=()=>
+{
+console.log("under process");
+}
+console.log(findgrade(36,"ram"));
+
+function findgrade()
+{
+console.log("welcome");
+console.log("jemi");
+}
+
+var checkgrade=(a,b)=>
+{
+    //console.log(a+b);
+    return a+b;
+}
+
+checkgrade();
+console.log("added value",checkgrade(1,2)); 
+var printmsg =(checkgrade(1,2));
+console.log(printmsg);
+var checkgrade2 =(a,b)=> a+b;
+console.log(checkgrade2(5,28));
+var checkgrade2=()=> 
+checkgrade();
+console.log(checkgrade2);
+
+//condition statement
+// if condition
+function gradecheck(m){
+    if(35<=m && m!=null)
+    {
+    console.log("no grade");
+    console.log("fail");
+}
+}
+gradechecking(45);
+
+
+
+// if else condition
+function gradecheck(m){
+    if(35<=m && m!=null)
+{
+    console.log("no grade");
+    console.log("fail");
+}
+else{
+console.log("pass");
+console.log("other grade");
+}
+}
+gradechecking(55);
+
+
+// nested if else condition
+function gradechecking()
+{
+if(35<=m && m!=null)
+    {
+        console.log("no grade");
+        console.log("fail");
+    }
+    else {
+        if(35<=m && m!=null && m<=60)
+    {
+        console.log("pass");
+        console.log("grade c");
+    }
+    else if(45<=m && m!=null && m<=80)
+    {
+        console.log("pass");
+        console.log("grade b");
+    }
+    else if(30<=m && m!=null && m<=100)
+    {
+    console.log("pass");
+    console.log("grade a");
+    }
+    else{
+    gradechecking(("enter mark"));
+    }
+}
+}
+gradechecking(99);
+
+
+//switch condition statement
+
+function checkingwithswitch(a)
+{
+    console.log(a);
+    switch(a){
+    case 's':
+        //statement 
+        console.log("execute case s",typeof a);
+        break;
+    case 'h':
+        //statement
+        console.log("execute case h",typeof a);
+        break;
+    case 'f':
+        //statement
+        console.log("execute case f",typeof f);
+        break;
+    default:
+        //statement
+        alert("cases not in list");
+    }
+    }    
+    checkingwithswitch(prompt("Enter the condition value"));
+
+    var a=2;
+    ++a;
+    console.log("prefix increment",a);
+
+
+
+
+
+
+
+
+
+
+
+
