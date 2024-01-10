@@ -1,3 +1,6 @@
+
+
+
 // to use console check the below line
 console.log(" welcome to javascript");
 console.log(10);
@@ -236,10 +239,51 @@ function checkingwithswitch(a)
     }
     }    
     checkingwithswitch(prompt("Enter the condition value"));
+    
+
+    //increment operator
 
     var a=2;
-    ++a;
-    console.log("prefix increment",a);
+    var x=a++;
+    console.log(a);
+
+    var a=2;
+    var x=a++;
+    console.log('increment with assignment',x);
+    console.log('increment with assignment',a);
+    console.log(x+a);  
+
+var a=3;
+var x=++a;
+console.log('prefix increment with assignment',a);
+
+var a=3;
+var x=++a;
+console.log('prefix increment with assignment',x);
+console.log('prefix increment with assignment',a);   
+console.log(x+a);
+//decrement 
+ var a=2;
+ var x=a--;
+ console.log(a);
+
+var a=5;
+var x=a--;
+console.log('increment with assignment',x);
+console.log('increment with assignment',a);
+console.log(x-a);
+
+var a=2;
+var x=--a;
+console.log('prefix increment with assignment',a);
+
+var a=5;
+var x=--a;
+console.log('prefix increment with assignment',x);
+console.log('prefix increment with assignment',a);
+
+
+
 
 
 
