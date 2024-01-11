@@ -262,6 +262,8 @@ var x=++a;
 console.log('prefix increment with assignment',x);
 console.log('prefix increment with assignment',a);   
 console.log(x+a);
+
+
 //decrement 
  var a=2;
  var x=a--;
@@ -281,7 +283,7 @@ var a=5;
 var x=--a;
 console.log('prefix increment with assignment',x);
 console.log('prefix increment with assignment',a);
-
+function checkingwithswitch()
 
 
 
