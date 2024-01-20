@@ -1,0 +1,142 @@
+<html>
+    <head>
+        <title>loop</title>
+    </head>
+    <body>
+    <label for ="inputvalue">inputvalue</label><br>
+    <input type="text" id="tbvalue" name="tbvalue" value="">
+    
+    <input type="button"  value="get result" onclick="Getresultfun()">
+
+
+<script>
+    /*
+function Getresultfun()
+{
+ var inputvalue=document.getElementById("tbvalue").Value;
+ inputvalue=Number(inputvalue);
+ 
+ //while
+ while(inputvalue<15)
+ {
+    console.log("inputvalue in while loop for" + inputvalue + "is smaller than 20");
+    inputvalue++;
+}
+
+//do while
+do{
+    console.log("inputvalue in while loop for" + inputvalue + "is smaller than 20");
+    inputvalue++;
+
+}
+while(inputvalue<15)
+
+
+//for loop
+for(inputvalue;inputvalue>15;inputvalue++)
+{
+    console.log("inputvalue" + inputvalue + "is smaller than 20");
+}
+*/
+
+
+
+
+var listofnames =["priya","meena","ravi","jeeva"]
+console.log("length of array listofnames",listofnames.length);
+console.log(listofnames[0]);
+console.log(listofnames[1]);
+console.log(listofnames);
+for(let a=0; a<listofnames.length;a++)
+{
+    console.log(listofnames[a]);
+   
+}
+console.log("output from for OF");
+for(let a=0; a<listofnames.length;a++){
+    console.log(listofnames[a]);
+    if(a==2){
+        break;
+    }
+}
+
+for(let a=0; a<listofnames.length;a++){
+   if(a==2){
+    console.log(listofnames[a]);
+    continue;
+    }
+}
+
+
+var listofcars = {names:"bmw",price:"1c",mdate:"2020"}
+console.log(listofcars);
+console.table(listofcars);
+
+
+for(let property in listofcars)
+{
+    console.log(property+":"+listofcars[property]);
+}
+
+function Getresultfun(){
+    var text="welcome to javascript";
+    console.log(text.length);
+    console.log(text.indexOf("welcome"));
+    console.log(text.indexOf("welcome",10));
+    console.log(text.lastIndexOf("welcome"));
+    console.log(text.search("welcome"));
+    console.log(text.search("welcome",20));
+    
+   let arr1= text.match(/welcome/);
+    console.log(arr1);
+
+    let arr11=text.match(/welcome/gi);
+   console.log(arr11);
+   console.log(text.slice(19,10));
+   console.log(text.length);
+}
+Getresultfun()
+
+
+let today = new Date();
+console.log(today);
+console.log(today.getFullYear());
+console.log(today.toLocaleString());
+console.log(today.toISOString());
+console.log(today.toLocaleDateString());
+console.log(today.toString());
+
+
+var month = ["jan","feb","mar","oct"];
+console.log(month[today.getMonth()]);
+
+var output=text.touppercase();
+console.log(output);
+
+var output=text.tolowercase();
+console.log(output);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

@@ -287,6 +287,16 @@ function checkingwithswitch()
 
 
 
+var listofnames =["priya","meena","ravi","jeeva"]
+for(let a=0; a<listofnames.length;a++){
+    console.log(listofnames[a]);
+}
+Getresultfun()
+
+
+
+
+
 
 
 
