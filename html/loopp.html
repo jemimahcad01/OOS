@@ -10,18 +10,20 @@
 
 
 <script>
-    /*
+  
 function Getresultfun()
 {
  var inputvalue=document.getElementById("tbvalue").Value;
  inputvalue=Number(inputvalue);
  
+
  //while
  while(inputvalue<15)
  {
     console.log("inputvalue in while loop for" + inputvalue + "is smaller than 20");
     inputvalue++;
 }
+
 
 //do while
 do{
@@ -37,8 +39,8 @@ for(inputvalue;inputvalue>15;inputvalue++)
 {
     console.log("inputvalue" + inputvalue + "is smaller than 20");
 }
-*/
 
+}
 
 
 
@@ -52,6 +54,7 @@ for(let a=0; a<listofnames.length;a++)
     console.log(listofnames[a]);
    
 }
+
 console.log("output from for OF");
 for(let a=0; a<listofnames.length;a++){
     console.log(listofnames[a]);
@@ -68,6 +71,7 @@ for(let a=0; a<listofnames.length;a++){
 }
 
 
+
 var listofcars = {names:"bmw",price:"1c",mdate:"2020"}
 console.log(listofcars);
 console.table(listofcars);
@@ -77,27 +81,48 @@ for(let property in listofcars)
 {
     console.log(property+":"+listofcars[property]);
 }
+console.clear();
+
+
 
 function Getresultfun(){
-    var text="welcome to javascript";
-    console.log(text.length);
-    console.log(text.indexOf("welcome"));
-    console.log(text.indexOf("welcome",10));
-    console.log(text.lastIndexOf("welcome"));
-    console.log(text.search("welcome"));
-    console.log(text.search("welcome",20));
+    var text="welcome to javascript developer conducted by govt and welcome to course java to";
     
-   let arr1= text.match(/welcome/);
-    console.log(arr1);
+    console.log(text.length);
 
-    let arr11=text.match(/welcome/gi);
-   console.log(arr11);
-   console.log(text.slice(19,10));
-   console.log(text.length);
-}
-Getresultfun()
+    console.log(text.indexOf("welcome",15));
+
+    console.log(text.indexOf("welcome",10));
+
+    console.log(text.lastIndexOf("to"));
+
+    console.log(text.endsWith("java"));
+
+    console.log(text.endsWith("to"));
+
+    console.log(text.search("to"));
+
+    console.log(text.toUpperCase("welcome"));
+
+    console.log(text.toLowerCase("welcome"));
+
+    console.log(text.slice(10,15));
+
+    console.log(text.slice(5,11));
+
+    console.log(text.replace("welcome","welcomee"));
+ console.log(text.indexOf("welcome"));
+
+ console.log(text.charAt("15"));
+
+}Getresultfun()
 
 
+
+
+
+
+//date
 let today = new Date();
 console.log(today);
 console.log(today.getFullYear());
@@ -106,22 +131,18 @@ console.log(today.toISOString());
 console.log(today.toLocaleDateString());
 console.log(today.toString());
 
+ 
+var number="a";
+a =[1,2,3,4,5];
+var a="2";
+number=number.padstart(5,"a"));
+console.log(number);
 
-var month = ["jan","feb","mar","oct"];
-console.log(month[today.getMonth()]);
-
-var output=text.touppercase();
-console.log(output);
-
-var output=text.tolowercase();
-console.log(output);
-
-
-
-
-
-
-
+var number="b";
+b=[1,2,3,4,5];
+var b="2";
+number=number.padstart(5,"b"));
+console.log(number);
 
 
 
