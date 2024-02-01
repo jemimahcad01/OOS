@@ -3,8 +3,12 @@
 <head>
 	
 	<title>Online ornaments shop</title>
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
-<link rel ="icon" type="image/x-icon" href="images/ornaments.png">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel ="icon" type="image/x-icon" href="images/ornaments.png">
+	<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
 </head>
 <body>
 <div class="Homeheading">
@@ -13,15 +17,21 @@
 <div class="Homeheadingdescrp">
 	<p> To look elegant and which icing on you</p>
 </div>
-<!-- Slider main container -->
+<ul>
+	<li><a href="home.html">HOME</a></li>
+	<li><a href="aboutus.html">ABOUT US</a></li>
+	<li><a href="ourservice.html">OUR SERVICE</a></li>
+    <li class="lastmenuchild"><a href="contactus.html">CONTACT US</a></li>
+</ul>
+<br><br><br>
 <div class="swiper">
 	<!-- Additional required wrapper -->
 	<div class="swiper-wrapper">
-	  <!-- Slides -->
-	  <div class="swiper-slide">Slide 1</div>
-	  <div class="swiper-slide">Slide 2</div>
-	  <div class="swiper-slide">Slide 3</div>
-	  ...
+	<!-- Slides -->
+	<div class="swiper-slide"><img src="https://picsum.photos/id/337/200/300" alt=""></div>
+    <div class="swiper-slide"><img src ="https://picsum.photos/id/236/200/300" alt=""></div>
+    <div class="swiper-slide"><img src ="https://picsum.photos/id/537/200/300" alt=""></div>
+	 ...
 	</div>
 	<!-- If we need pagination -->
 	<div class="swiper-pagination"></div>
@@ -33,13 +43,34 @@
 	<!-- If we need scrollbar -->
 	<div class="swiper-scrollbar"></div>
   </div>
-<ul>
-	<li><a href="home.html">HOME</a></li>
-	<li><a href="aboutus.html">ABOUT US</a></li>
-	<li><a href="ourservice.html">OUR SERVICE</a></li>
-    <li class="lastmenuchild"><a href="contactus.html">CONTACT US</a></li>
-    </ul>
 
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+	const swiper = new Swiper('.swiper',  {
+	// Optional parameters
+	direction: 'horizontal',
+	loop: true,
+	autoplay:{delay:1000},
+	slicePerView:2,
+	 
+	// If we need pagination
+	pagination: {
+	  el: '.swiper-pagination',
+	  clickable: 'true',
+	},
+  
+	// Navigation arrows
+	navigation: {
+	  nextEl: '.swiper-button-next',
+	  prevEl: '.swiper-button-prev',
+	},
+  
+	// And if we need scrollbar
+	scrollbar: {
+	  el: '.swiper-scrollbar',
+	},
+  });
+</script>
 </body>
 </html>
 

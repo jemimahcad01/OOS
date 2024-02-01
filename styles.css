@@ -1,3 +1,5 @@
+
+
 .Homeheading img
 {
 	width:40px;
@@ -38,11 +40,8 @@ float: left;
 border-right: 3px solid purple;
 }
 
-.swiper {
-	width: 600px;
-	height: 300px;
-  }
-  
+
+
 li a{
 	display: block;
 	background-color: lavender;
@@ -59,12 +58,21 @@ h2
 	font-size:50px;
 	color: black;
 }
-body
-{   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQH-zEBCeYklX8a9G8l7NpS4NNpkjiaO3HAg&usqp=CAU");
-}
+
 h3
 {
 	color: black;
 	font-size: 70px;
 	font-family: 'Courier New';
+}
+
+
+.swiper {
+	width: 1000px;
+	height: 500px;
+
+}
+.swiper-slide img{
+	width: 1000px;
+	height: 500px;
 }
