@@ -1,5 +1,4 @@
 
-
 .Homeheading img
 {
 	width:40px;
@@ -7,9 +6,9 @@
 }
 h1
 {
-	
 	font-size: 40px;
-	color: aliceblue;
+	color: rgb(1, 6, 10);
+	background-color: lavender;
 }
 .Homeheading 
 {
@@ -57,22 +56,46 @@ h2
 {
 	font-size:50px;
 	color: black;
+	background-color: lavender;
 }
 
 h3
 {
+	background-color: rgb(221, 157, 179);
 	color: black;
-	font-size: 70px;
+	font-size: 20px;
 	font-family: 'Courier New';
 }
-
+.aboutushtml{
+background-color: rgb(236, 230, 234);
+}
+h1{
+	font-size: 20px;
+	background-color: rgb(231, 223, 227);
+	font-family: 'Courier New', Courier, monospace;
+}
 
 .swiper {
 	width: 1000px;
-	height: 500px;
+	height: 400px;
 
 }
 .swiper-slide img{
 	width: 1000px;
-	height: 500px;
+	height: 400px;
+}
+.swiper-pagination-bullet-active
+{
+	opacity: 1;
+	background-color: cornflowerblue;
+	width:0.7rem;
+	height: 0.6em;
+    border-radius:0.5rem;
+}
+.swiperclass{
+	width: 10px;
+	height: 20px;
+}
+body{
+	background-color: lavenderblush;
 }
