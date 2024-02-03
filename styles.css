@@ -6,9 +6,10 @@
 }
 h1
 {
-	font-size: 40px;
+	font-size: 50px;
 	color: rgb(1, 6, 10);
-	background-color: lavender;
+	background-color: rgb(210, 210, 241);
+
 }
 .Homeheading 
 {
@@ -16,15 +17,19 @@ h1
 	gap:10px;
 	justify-content: center;
 	place-items:center;
-	background-color:lavender;
+	background-color:rgb(240, 206, 217);
 	font-family: 'Courier New';
 }
 .Homeheadingdescrp
 {
 	text-align:center;
 	color:black;
+	background-color:rgb(210, 210, 241); ;
 	
 }
+
+
+
 
 ul
 {
@@ -32,6 +37,7 @@ ul
 	gap: 70px;
 	background-color: black;
 	padding: 0;
+	background-color: lavenderblush;
 }
 li
 { 
@@ -43,7 +49,7 @@ border-right: 3px solid purple;
 
 li a{
 	display: block;
-	background-color: lavender;
+	background-color: rgb(240, 206, 217);
 	padding:10px 15px;
 	color: black;
 	text-decoration: none;
@@ -56,7 +62,7 @@ h2
 {
 	font-size:50px;
 	color: black;
-	background-color: lavender;
+	
 }
 
 h3
@@ -66,14 +72,25 @@ h3
 	font-size: 20px;
 	font-family: 'Courier New';
 }
+
+
+
+
+
+
 .aboutushtml{
 background-color: rgb(236, 230, 234);
 }
 h1{
 	font-size: 20px;
 	background-color: rgb(231, 223, 227);
-	font-family: 'Courier New', Courier, monospace;
+	font-family: monospace;
 }
+
+
+
+
+
 
 .swiper {
 	width: 1000px;
@@ -84,18 +101,74 @@ h1{
 	width: 1000px;
 	height: 400px;
 }
-.swiper-pagination-bullet-active
-{
-	opacity: 1;
-	background-color: cornflowerblue;
-	width:0.7rem;
-	height: 0.6em;
-    border-radius:0.5rem;
-}
+
 .swiperclass{
 	width: 10px;
 	height: 20px;
 }
+
+
+
+
+
+
+
+
+.contactushtml{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 20px;
+	background-color: lavenderblush;
+	
+}
+h2{
+	background-color: rgb(231, 223, 227);
+}
+.formhtml{
+	background-color:rgb(231, 223, 227);
+	
+}
+.submit{
+	justify-content: center;
+}
+
+
+
+
+
+homepage
+
+h1{
+	font-size: 50px;
+}
+.formhome{
+	justify-content: center;
+	background-color: rgb(236, 197, 223);
+}
+li{
+	
+	background-color: rgb(210, 210, 212);
+	font-size: 16px;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul{
+	gap: 15px;
+}
+h2{
+	font-size: 30px;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 body{
 	background-color: lavenderblush;
 }

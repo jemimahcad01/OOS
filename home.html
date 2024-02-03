@@ -9,67 +9,41 @@
   href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 />
 </head>
-<body>
- 
+<body>  
 	<div class="homehtml">
-		<center><img src="images/vector.png"></center>
-		<h2><center> Welcome</center></h2>
+	<center><h1>Welcome</h1></center>
 	</div>
-	<div class="swiper">
-		<!-- Additional required wrapper -->
-		<div class="swiper-wrapper">
-		<!-- Slides -->
-		<div class="swiper-slide"><img src="https://i.postimg.cc/jSWzYkqg/brand.jpg" alt=""></div>
-		<div class="swiper-slide"><img src ="https://i.postimg.cc/xT71yVFj/spring.jpg" alt=""></div>
-		<div class="swiper-slide"><img src ="https://i.postimg.cc/ry7p5LHV/picture.jpg" alt=""></div>
-		 ...
-		</div>
-		<!-- If we need pagination -->
-		<div class="swiper-pagination"></div>
-		<!-- If we need navigation buttons -->
-		<div class="swiper-button-prev"></div>
-		<div class="swiper-button-next"></div>
-	  
-		<!-- If we need scrollbar -->
-		<div class="swiper-scrollbar"></div>
-	    </div>
-
-        <ul>
+	<div class="homeimg">
+	    <ul>
 			<li>GOLD</li>
 			<li>SLIVER</li>
 			<li>PLATINUM</li>
 			<li>DIAMOND</li>
 		</ul>
+		</div>
+		<br><br><br><br>
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>		
-<script src="javascript/script.js"></script>
-<script>
-	const swiper = new Swiper('.swiper', {
-	// Optional parameters
-	direction: 'horizontal',
-	loop: true,
-	autoplay:{delay:1000,
-	pauseOnMouseEnter:true},
-	slicePerView:2,
-	
-	 
-	// If we need pagination
-	pagination: {
-	  el: '.swiper-pagination',
-	  clickable: 'true',
-	},
-  
-	// Navigation arrows
-	navigation: {
-	  nextEl: '.swiper-button-next',
-	  prevEl: '.swiper-button-prev',
-	},
-    
-	// And if we need scrollbar
-	scrollbar: {
-	  el: '.swiper-scrollbar',
-	},
-  });
+
+
+		<div class="formhome">
+			<center><form>
+				<label for="name">Name:</label>
+				<input type="text" name="text" id="" value=""><br>
+				<label for ="emailid">Emailid:</label>
+				<input type="text" name="text" id="" value=""><br>
+				<label for="Phnumber">Phnumber:</label>
+				<input type="text" name="" id="" value=""><br>
+				<div class="submit">
+				<input type="button" name="Submit" value="Submit"><br>
+			</form>	
+			</center>
+			</div>
+
+
+<div class="homepara">
+<center><h2> It is often made of a valuable metal such as gold, and sometimes decorated with precious stones.</h2></center>
+</div>
+
 </script>
 </body>
 </html>
