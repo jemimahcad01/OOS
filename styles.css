@@ -9,7 +9,6 @@ h1
 	font-size: 50px;
 	color: rgb(1, 6, 10);
 	background-color: rgb(210, 210, 241);
-
 }
 .Homeheading 
 {
@@ -27,10 +26,6 @@ h1
 	background-color:rgb(210, 210, 241); ;
 	
 }
-
-
-
-
 ul
 {
 	list-style-type: none;
@@ -44,9 +39,6 @@ li
 float: left;
 border-right: 3px solid purple;
 }
-
-
-
 li a{
 	display: block;
 	background-color: rgb(240, 206, 217);
@@ -73,16 +65,42 @@ h3
 	font-family: 'Courier New';
 }
 
+.swiper {
+	width: 1000px;
+	height: 300px;
+}
+.swiper img{
+	width: 1000px;
+	height: 300px;
+}
+
+.swiperclass{
+	width: 100%;
+	
+}
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+aboutus
 
 .aboutushtml{
 background-color: rgb(236, 230, 234);
 }
 h1{
-	font-size: 20px;
+	font-size: 15px;
 	background-color: rgb(231, 223, 227);
 	font-family: monospace;
 }
@@ -92,27 +110,13 @@ h1{
 
 
 
-.swiper {
-	width: 1000px;
-	height: 400px;
-
-}
-.swiper-slide img{
-	width: 1000px;
-	height: 400px;
-}
-
-.swiperclass{
-	width: 10px;
-	height: 20px;
-}
 
 
 
 
 
 
-
+contactus
 
 .contactushtml{
 	font-family: 'Courier New', Courier, monospace;
@@ -125,7 +129,6 @@ h2{
 }
 .formhtml{
 	background-color:rgb(231, 223, 227);
-	
 }
 .submit{
 	justify-content: center;
@@ -143,16 +146,18 @@ h1{
 .formhome{
 	justify-content: center;
 	background-color: rgb(236, 197, 223);
+
+
 }
 li{
+	
 	
 	background-color: rgb(210, 210, 212);
 	font-size: 16px;
 	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-ul{
-	gap: 15px;
-}
+
+
 h2{
 	font-size: 30px;
 	font-family: 'Courier New', Courier, monospace;
@@ -169,6 +174,85 @@ h2{
 
 
 
+ourservice
+h1{
+	font-style:italic;
+}
+.servicehtml{
+	font-size: 20px;
+}
+h1{
+	font-size: 30px;
+}
+ul{
+	font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.search
+{   
+	float:right;
+	display: block;
+
+}
+
+
+
+
+
+
+
+
+.droplist{
+	float: right;
+	display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+.firstprofile{
+	top: 0%;
+	place-items:top corner;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
 body{
 	background-color: lavenderblush;
+}
+
+
+
+@media screen and
+{
+	max-width:500px;
+	li a{
+		font-size:10px;
+	} 
 }

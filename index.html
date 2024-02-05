@@ -5,6 +5,13 @@
 	<title>Online ornaments shop</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
     <link rel ="icon" type="image/x-icon" href="images/design.png">
+	<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+
+
 </head>
 <body>
 <div class="Homeheading">
@@ -20,7 +27,45 @@
     <li class="lastmenuchild"><a href="contactus.html">CONTACT US</a></li>
 </ul>
 <br><br><br>
+
+
+
+
+
+<div class="firstprofile">
+<img src="https://i.postimg.cc/0NGgQHDp/profile.png">
+</div>
+
+
+
+
+
+<div class="droplist">
+<form>
+<label for="option">option</label>
+<select name="option" id="option">
+<option></option>
+<option>change password</option>
+<option>sign out</option>
+</form>
+</div>
+
+
+
+
+
+
+<div class="search">
+<form>
+<input type ="text" placeholder="search...."><br>
+</form>
+</div>
+
+
+
+
 <div class="swiperclass">
+	<div class="swiper">
 	<!-- Additional required wrapper -->
 	<div class="swiper-wrapper">
 	<!-- Slides -->
@@ -37,11 +82,17 @@
   
 	<!-- If we need scrollbar -->
 	<div class="swiper-scrollbar"></div>
-  </div>
+    </div>
+</div>
+
+
+
+
+
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
-	const swiper = new Swiper('.swiper', {
+	const swiper = new Swiper('.swiper',   {
 	// Optional parameters
 	direction: 'horizontal',
 	loop: true,
@@ -53,8 +104,10 @@
 	// If we need pagination
 	pagination: {
 	  el: '.swiper-pagination',
-	  clickable: 'true',
+	  clickable:true,
 	},
+
+
   
 	// Navigation arrows
 	navigation: {
@@ -62,11 +115,18 @@
 	  prevEl: '.swiper-button-prev',
 	},
     
+
 	// And if we need scrollbar
 	scrollbar: {
 	  el: '.swiper-scrollbar',
 	},
   });
+
+
+
+
+
+
 </script>
 </body>
 </html>
