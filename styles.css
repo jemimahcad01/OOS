@@ -8,8 +8,8 @@ h1
 {
 	font-size: 60px;
 	color: rgb(1, 6, 10);
-	background-color: rgb(210, 210, 241);
 }
+
 .Homeheading 
 {
 	width: 90%;
@@ -17,16 +17,16 @@ h1
 	gap:30px;
 	justify-content: center;
 	place-items:center;
-	background-color:rgb(240, 206, 217);
-	font-family: 'Courier New';
+	font-family: monospace;
 }
+
 .Homeheadingdescrp
 {      
 	font-size: 15px;
 
 	text-align:center;
 	color:black;
-	background-color:rgb(241, 204, 227); ;
+	background-color: rgb(243, 200, 230); 
 	
 }
 ul
@@ -35,23 +35,23 @@ ul
 	gap: 70px;
 	background-color: black;
 	padding: 0;
-	background-color: lavenderblush;
+	
 }
 li
 { 
 float: left;
-border-right: 3px solid purple;
+border-right: 3px solid rgb(110, 16, 110);
 }
 li a{
 	display: block;
-	background-color: rgb(240, 206, 217);
+	background-color: rgb(243, 200, 230);
 	padding:25px 25px;
 	color: black;
 	text-decoration: none;
 }
 .lastmenuchild
 {
-	float: left;
+	float: right;
 }
 h2
 {
@@ -59,7 +59,6 @@ h2
 	color: black;
 	
 }
-
 h3
 {
 	background-color: rgb(221, 157, 179);
@@ -202,10 +201,9 @@ ul{
 
 
 .search
-{  
-	text-align: center;
-	height: 20%;
-	
+{  text-align: center;
+	background-color:rgb(230, 217, 217);
+	padding: 10px;
 }
 
 
@@ -218,6 +216,7 @@ ul{
 }
 .firstprofile select{
 	width: 40px;
+	background-color:lavenderblush;
 	
 }
 .firstprofile img{
