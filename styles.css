@@ -8,6 +8,8 @@ h1
 {
 	font-size: 60px;
 	color: rgb(1, 6, 10);
+	
+
 }
 
 .Homeheading 
@@ -26,7 +28,7 @@ h1
 
 	text-align:center;
 	color:black;
-	background-color: rgb(243, 200, 230); 
+	background-color: rgb(214, 184, 205); 
 	
 }
 ul
@@ -44,7 +46,7 @@ border-right: 3px solid rgb(110, 16, 110);
 }
 li a{
 	display: block;
-	background-color: rgb(243, 200, 230);
+	background-color: rgb(214, 184, 205); 
 	padding:25px 25px;
 	color: black;
 	text-decoration: none;
@@ -80,6 +82,50 @@ h3
 	width: 100%;
 	
 }
+
+	
+	  
+	  .search {
+		width: 60%;
+		position: relative;
+		display: flex;
+	  }
+	  
+	  .searchTerm {
+		width: 100%;
+		border: 3px solid #030303;
+		border-right: none;
+		padding: 5px;
+		height: 20px;
+		border-radius: 5px 0 0 5px;
+		outline: none;
+		color: #9DBFAF;
+	  }
+	  
+	  .searchTerm:focus{
+		color: #b5c9cc;
+	  }
+	  
+	  .searchButton {
+		width: 40px;
+		height: 36px;
+		border: 1px solid #a3c1c5;
+		background: #bddee2;
+		text-align: center;
+		color: #fff;
+		border-radius: 0 5px 5px 0;
+		cursor: pointer;
+		font-size: 20px;
+	  }
+	  
+	  /*Resize the wrap to see the search bar change!*/
+	  .wrap{
+		width: 30%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	  }
 
 
 
@@ -119,7 +165,9 @@ h1{
 
 
 contactus
-
+.name{
+	height: 15%;
+}
 .contactushtml{
 	font-family: 'Courier New', Courier, monospace;
 	font-size: 20px;
@@ -135,8 +183,65 @@ h2{
 .submit{
 	justify-content: center;
 }
+.btn{
+	
+	font-family: Roboto, sans-serif;
+	font-weight: 100;
+	font-size: 14px;
+	color: #f5f0f0;
+	background: linear-gradient(90deg, #202121 0%, #19151a 100%);
+	padding: 5px 11px;
+	border: solid #eff3f7 2px;
+	box-shadow: rgb(0, 0, 0) -3px 8px 25px 5px;
+	border-radius: 33px;
+	transition : 1000ms;
+	transform: translateY(0);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	cursor: pointer;
+	text-transform: uppercase;
+	}
+	
+	.btn:hover{
+	
+	transition : 1000ms;
+	padding: 10px 50px;
+	transform : translateY(-0px);
+	background: linear-gradient(90deg, #202121 0%, #19151a 100%);
+	color: #424445;
+	border: solid 2px #222324;
+	}
 
-
+	.btn{
+	
+		font-family: Roboto, sans-serif;
+		font-weight: 100;
+		font-size: 14px;
+		color: #f5f0f0;
+		background: linear-gradient(90deg, #202121 0%, #19151a 100%);
+		padding: 5px 11px;
+		border: solid #eff3f7 2px;
+		box-shadow: rgb(0, 0, 0) -3px 8px 25px 5px;
+		border-radius: 33px;
+		transition : 1000ms;
+		transform: translateY(0);
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		cursor: pointer;
+		text-transform: uppercase;
+		}
+		
+		.btn:hover{
+		
+		transition : 1000ms;
+		padding: 10px 50px;
+		transform : translateY(-0px);
+		background: linear-gradient(90deg, #202121 0%, #19151a 100%);
+		color: #424445;
+		border: solid 2px #222324;
+		}
 
 
 
@@ -147,32 +252,83 @@ h1{
 }
 .formhome{
 	justify-content: center;
-	background-color: rgb(236, 197, 223);
-
-
+	
 }
-li{
+li{	
 	
-	
+	padding: 25px 25px;
 	background-color: rgb(210, 210, 212);
-	font-size: 16px;
+	font-size: 20px;
 	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
-
 h2{
-	font-size: 30px;
+	font-size: 20px;
 	font-family: 'Courier New', Courier, monospace;
 }
 
+.btn{
+	
+	font-family: Roboto, sans-serif;
+	font-weight: 100;
+	font-size: 14px;
+	color: #f5f0f0;
+	background: linear-gradient(90deg, #202121 0%, #19151a 100%);
+	padding: 5px 11px;
+	border: solid #eff3f7 2px;
+	box-shadow: rgb(0, 0, 0) -3px 8px 25px 5px;
+	border-radius: 33px;
+	transition : 1000ms;
+	transform: translateY(0);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	cursor: pointer;
+	text-transform: uppercase;
+	}
+	
+	.btn:hover{
+	
+	transition : 1000ms;
+	padding: 10px 50px;
+	transform : translateY(-0px);
+	background: linear-gradient(90deg, #202121 0%, #19151a 100%);
+	color: #424445;
+	border: solid 2px #222324;
+	}
+	
+	.btn{
+	
+		font-family: Roboto, sans-serif;
+		font-weight: 100;
+		font-size: 14px;
+		color: #f5f0f0;
+		background: linear-gradient(90deg, #202121 0%, #19151a 100%);
+		padding: 5px 11px;
+		border: solid #eff3f7 2px;
+		box-shadow: rgb(0, 0, 0) -3px 8px 25px 5px;
+		border-radius: 33px;
+		transition : 1000ms;
+		transform: translateY(0);
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		cursor: pointer;
+		text-transform: uppercase;
+		}
+		
+		.btn:hover{
+		
+		transition : 1000ms;
+		padding: 10px 50px;
+		transform : translateY(-0px);
+		background: linear-gradient(90deg, #202121 0%, #19151a 100%);
+		color: #424445;
+		border: solid 2px #222324;
+		}
 
 
 
-
-
-
-
-
+		
 
 
 
@@ -187,8 +343,7 @@ h1{
 	font-size: 20px;
 }
 ul{
-	font-size: 30px;
-
+	font-size: 20px;
 }
 
 
