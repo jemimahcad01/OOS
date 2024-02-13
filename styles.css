@@ -8,8 +8,6 @@ h1
 {
 	font-size: 60px;
 	color: rgb(1, 6, 10);
-	
-
 }
 
 .Homeheading 
@@ -28,7 +26,6 @@ h1
     text-align:center;
 	color:black;
 	background-color: rgb(214, 184, 205); 
-	
 }
 ul
 {
@@ -91,7 +88,7 @@ h3
 	  }
 	  
 	  .searchTerm {
-		width: 100%;
+		width: 20%;
 		border: 3px solid #030303;
 		border-right: none;
 		padding: 5px;
@@ -101,32 +98,18 @@ h3
 		color: #9DBFAF;
 	  }
 	  
-	  .searchTerm:focus{
-		color: #b5c9cc;
-	  }
-	  
+	 
 	  .searchButton {
 		width: 40px;
 		height: 36px;
-		border: 1px solid #a3c1c5;
-		background: #bddee2;
-		text-align: center;
-		color: #fff;
+	    text-align: center;
+		
 		border-radius: 0 5px 5px 0;
 		cursor: pointer;
 		font-size: 20px;
 	  }
 	  
-	  /*Resize the wrap to see the search bar change!*/
-	  .wrap{
-		width: 30%;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-	  }
-
-
+	
 
 
 
@@ -145,17 +128,20 @@ aboutus
 .aboutushtml{
 	float: left;
 }
-.aboutushtml img{
-	float: left;
-	padding: 15px 15px;
-	
-}
-h1{
-	float: left;
-	font-size: 10px;
-	font-family: monospace;
+.aboutlogo{
+	display: flex;
+	text-align: center;
 	justify-content: center;
 	
+}
+.aboutlogoimg{
+	place-items: center;
+}
+
+h1{
+	font-size: 15px;
+    font-family: monospace;
+	justify-content: center;
 }
 h3{
   background-color: lavenderblush;
@@ -164,7 +150,7 @@ h3{
 }
 .about img{
 	float: right;
-	
+
 }
 
 
@@ -346,12 +332,8 @@ h2{
 
 
 ourservice
-h1{
-font-size: 20px;	
-}
-.servicehtml
-{
-font-size: 20px;
+h3{
+	font-size: 15px;
 }
 
 
