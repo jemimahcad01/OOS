@@ -357,11 +357,22 @@ h3
 	font-size: 15px;
 }
 
-.ourservicehtml
+.servicelogo
 {
-	width: 20px;
+	font-size: 15px;
 }
-
+h2{
+	background-color: lavender;
+}
+li{
+	text-decoration: none;
+	width: 100%;
+	background-color: lavenderblush;
+}
+.servicebutton
+{
+width: 50%;
+}
 
 
 
